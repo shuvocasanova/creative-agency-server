@@ -18,7 +18,7 @@ app.use(fileUpload());
 const port = 7000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to ar-creative-agency-server");
+  res.send("Welcome to creative-agency-server");
 });
 
 // mongodb
